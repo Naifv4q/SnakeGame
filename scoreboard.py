@@ -22,9 +22,6 @@ class ScoreBoard(Turtle):
         self.clear()
         self.write(f"Score: {self.score}", True,"Center",("Arial",15,"normal"))
         self.goto(-255,275)
-    #A reset function for a replay.
-    def score_reset(self):
-        self.score=0
     #A game over message shows when called.
     def show_game_over(self):
         self.game_over = Turtle()
