@@ -43,7 +43,7 @@ class ScoreBoard(Turtle):
         self.score+=1
         self.clear()
         self.write(f"Score: {self.score}", True,"Center",("Arial",15,"normal"))
-        self.goto(-255,275)
+        self.goto(0,275)
 
     #A function that reads the highest score in the score_memory.txt file.
     def read_high_score(self):
