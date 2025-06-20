@@ -46,9 +46,9 @@ class ScoreBoard(Turtle):
         self.goto(-255,275)
 
     #A function that reads the highest score in the score_memory.txt file.
-        def read_high_score(self):
-            with open("score_memory.txt",mode="r") as memory_file:
-                return int(memory_file.read())
+    def read_high_score(self):
+        with open("score_memory.txt",mode="r") as memory_file:
+            return int(memory_file.read())
         
 
     #A function that writes the highest score the user gets in the score_memory.txt file.
